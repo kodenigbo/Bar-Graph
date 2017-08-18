@@ -1,0 +1,43 @@
+html, body{
+margin: 0;
+height: 100%
+}
+
+.bar { fill: purple; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Slab', "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 1.75em;
+  margin-bottom: .1em;
+}
+
+line {
+	stroke: red;
+}
+
+path {
+	stroke: steelblue;
+	fill: none;
+	stroke-width: 2px;
+}
+
+g.group0 path,
+g.group0 circle {
+	stroke: red;
+	fill: none;
+}
+
+g.hidden line,
+g.hidden path {
+	display: none;
+}
+
+g.tick line {
+	stroke: steelblue;
+}
+
+g.tick text {
+	font-size: 12px;
+	fill: steelblue;
+}
