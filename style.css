@@ -10,30 +10,11 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: .1em;
 }
 
-line {
-	stroke: red;
-}
-
 path {
 	fill: none;
 	stroke-width: 2px;
 }
 
-.legend {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 60%;
-}
-
-g.hidden line,
-g.hidden path {
-	display: none;
-}
-
-g.tick line {
-	stroke: black;
-}
-
 g.tick text {
 	font-size: 12px;
-	fill: black;
 }
